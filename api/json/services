@@ -1,0 +1,21 @@
+{
+      "name" : "Mobile-App-Development",
+      "description" : "Which Framework Should You Prefer",
+      "available" : true,
+      "questions": ["TIME", "COST", "MAINTENANCE","RELIABILITY","MARKETING"]
+},
+{
+      "name" : "SAMPLE",
+      "description" : "SAMPLE",
+      "available" : false,
+      "questions": []
+},
+
+route for questions using service 
+localhost:3005/questionaire?service=Mobile-App-Development (get)
+
+route for questionaire 
+localhost:3005/questionaire (get/post)
+
+route for service 
+localhost:3005/api/service (get/post)

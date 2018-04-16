@@ -1,0 +1,36 @@
+[
+   {
+      "id": "TIME",
+      "type" : "text",
+      "format" : "date",
+      "multiple" : false,
+      "options": ["WITHIN_1_WEEK", "WITHIN_2_WEEKS","WITHIN_3_MONTHS","WITHIN_6_MONTHS","WITHIN_YEAR", "MORE_THAN_A_YEAR"]
+   },
+   {
+      "id" : "COST",
+      "type" : "text",
+      "format" : "money",
+      "multiple": false,
+      "options": ["1500", "3000","5000","10000","25000", "50000"]
+   },
+   {
+      "id": "MAINTENANCE",
+      "type": "text",
+      "format": "priority",
+      "multiple": false,
+      "options": ["High", "Mid", "Low"],
+   },
+   {
+      "id": "RELIABILITY",
+      "type": "text",
+      "format": "priority",
+      "options": ["High", "Mid", "Low"]
+   },
+   {
+      "id": "MARKETING",
+      "type": "text",
+      "format": "cost",
+      "multiple": false,
+      "options": ["Paid", "Free"]
+   },
+]
